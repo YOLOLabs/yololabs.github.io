@@ -29,6 +29,7 @@
 
 <body>
 <!--=== Style Switcher ===-->    
+<!--
 <i class="style-switcher-btn icon-cogs"></i>
 <div class="style-switcher">
     <div class="theme-close"><i class="icon-remove"></i></div>
@@ -40,29 +41,35 @@
         <li class="theme-red" data-style="red" data-header="light"></li>
         <li class="theme-light" data-style="light" data-header="light"></li>
     </ul>
-</div><!--/style-switcher-->
-<!--=== End Style Switcher ===-->    
+</div>
+-->
+<!--/style-switcher-->
 
 <!--=== Top ===-->    
 <div class="top">
-    <div class="container">			
+    <div class="container">         
         <ul class="loginbar pull-right">
             <li><i class="icon-globe"></i><a>Languages <i class="icon-sort-up"></i></a>
-            	<ul class="nav-list">
-                	<li class="active"><a href="#">English</a> <i class="icon-ok"></i></li>
-                	<li><a href="#">Spanish</a></li>
-                	<li><a href="#">Russian</a></li>
-                	<li><a href="#">German</a></li>
+                <ul class="nav-list">
+                    <li class="active"><a href="#">English</a> <i class="icon-ok"></i></li>
+                    <!--
+                    <li><a href="#">Spanish</a></li>
+                    <li><a href="#">Russian</a></li>
+                    <li><a href="#">German</a></li>
+                    -->
                 </ul>
-            </li>	
+            </li>   
             <li class="devider">&nbsp;</li>
-            <li><a href="page_faq.html" class="login-btn">Help</a></li>	
+            <li><a href="page_faq.html" class="login-btn">Help</a></li>  
+            
+            <!--
             <li class="devider">&nbsp;</li>
-            <li><a href="page_login.html" class="login-btn">Login</a></li>	
+            <li><a href="page_login.html" class="login-btn">Login</a></li>  
+            --> 
         </ul>
-    </div>		
+    </div>      
 </div><!--/top-->
-<!--=== End Top ===-->    
+<!--=== End Top ===-->  
 
 <!--=== Header ===-->
 <div class="header">               
@@ -83,11 +90,15 @@
                 <div class="nav-collapse collapse">                                     
                     <ul class="nav top-2">
                         <li>
+                            <a href="index.html" >Home</a>
+
+                            <!--
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Home
                                 <b class="caret"></b>                            
                             </a>
+                            
                             <ul class="dropdown-menu">
-                                <li><a href="index.html">Option1: Landing Page</a></li>
+                                <li class="active"><a href="index.html">Option1: Landing Page</a></li>
                                 <li><a href="page_home.html">Option2: Header Option</a></li>
                                 <li><a href="page_home4.html">Option3: Revolution Slider</a></li>
                                 <li><a href="page_home5.html">Option4: Amazing Content</a></li>
@@ -96,14 +107,22 @@
                                 <li><a href="page_home3.html">Option7: Aplle Style Slider</a></li>
                                 <li><a href="page_home_all.html">Home All In One</a></li>
                             </ul>
-                            <b class="caret-out"></b>                        
+                             
+                            <b class="caret-out"></b>
+                            -->                        
                         </li>
-                        <li class="active">
-                            <a href="" class="dropdown-toggle" data-toggle="dropdown">Pages
+                        <li>
+                            <!--
+                            <a href="page_pricing.html" class="dropdown-toggle" data-toggle="dropdown">Pricing
                                 <b class="caret"></b>                            
                             </a>
+                            -->
+
+                            <a href="page_pricing.html" >Pricing</a>
+
+                            <!--
                             <ul class="dropdown-menu">
-                                <li class="active"><a href="page_about.html">About Us</a></li>
+                                <li><a href="page_about.html">About Us</a></li>
                                 <li><a href="page_services.html">Services</a></li>
                                 <li><a href="page_pricing.html">Pricing</a></li>
                                 <li><a href="page_coming_soon.html">Coming Soon</a></li>
@@ -119,8 +138,11 @@
                                 <li><a href="page_column_left.html">2 Columns (Left)</a></li>
                                 <li><a href="page_column_right.html">2 Columns (Right)</a></li>
                             </ul>
+                            -->
+
                             <b class="caret-out"></b>                        
                         </li>
+                        <!--
                         <li>
                             <a href="" class="dropdown-toggle" data-toggle="dropdown">Features
                                 <b class="caret"></b>                            
@@ -138,6 +160,9 @@
                             </ul>
                             <b class="caret-out"></b>                        
                         </li>
+                        -->
+
+                        <!--
                         <li>
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio
                                 <b class="caret"></b>                            
@@ -151,6 +176,9 @@
                             </ul>
                             <b class="caret-out"></b>                        
                         </li>
+                        -->
+
+                        <!--
                         <li>
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog
                                 <b class="caret"></b>                            
@@ -163,17 +191,25 @@
                             </ul>
                             <b class="caret-out"></b>                        
                         </li>
+                        -->
+
+                        <!-- Contact -->
                         <li>
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact
-                                <b class="caret"></b>                            
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a href="page_contact.html">Contact Default</a></li>
-                                <li><a href="page_contact1.html">Contact Boxed Map</a></li>
-                            </ul>
-                            <b class="caret-out"></b>                        
-                        </li>
-                        <li><a class="search"><i class="icon-search search-btn"></i></a></li>                               
+                            <a href="page_contact1.html" >Contact</a>                           
+                                <!-- <li><a href="page_contact.html">Contact Default</a></li> -->
+                        </li>  
+
+                        <!-- FAQ -->
+                        <li>
+                            <a href="page_faq.html" >FAQ</a>
+                        <li>  
+
+                        <!-- About page -->
+                        <li class="active">
+                            <a href="page_about.html" >About</a>
+                        <li>    
+
+                        <li><a class="search"><i class="icon-search search-btn"></i></a></li>                              
                     </ul>
                     <div class="search-open">
                         <div class="input-append">
@@ -183,7 +219,7 @@
                             </form>
                         </div>
                     </div>
-                </div><!-- /nav-collapse -->                                
+                </div><!-- /nav-collapse -->             
             </div><!-- /navbar-inner -->
         </div><!-- /navbar -->                          
     </div><!-- /container -->               
@@ -194,11 +230,13 @@
 <div class="row-fluid breadcrumbs margin-bottom-40">
 	<div class="container">
         <h1 class="pull-left">About Us</h1>
+        <!--
         <ul class="pull-right breadcrumb">
             <li><a href="index.html">Home</a> <span class="divider">/</span></li>
             <li><a href="">Pages</a> <span class="divider">/</span></li>
             <li class="active">About Us</li>
         </ul>
+        -->
     </div><!--/container-->
 </div><!--/breadcrumbs-->
 <!--=== End Breadcrumbs ===-->
@@ -233,8 +271,8 @@
         <li class="span3">
             <div class="thumbnail-style">
                 <img src="assets/img/others/2.jpg" alt="" />
-                <h3><a>Jack Bour</a> <small>Chief Executive Officer / CEO</small></h3>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem...</p>
+                <h3><a>Down Nguyen</a> <small>Founder / Top-World Software Engineer </small></h3>
+                <p>Smart guy, easy to adapt tech-trend to give a birth wonderful digital-product.</p>
                 <ul class="unstyled inline">
                 	<li><a href="#"><i class="icon-facebook"></i></a></li>
                 	<li><a href="#"><i class="icon-twitter"></i></a></li>
@@ -245,8 +283,8 @@
         <li class="span3">
             <div class="thumbnail-style">
                 <img src="assets/img/others/7.jpg" alt="" />
-                <h3><a>Kate Metus</a> <small>Project Manager</small></h3>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem...</p>
+                <h3><a>Go Nguyen</a> <small>Founder / Full-stack Engineer</small></h3>
+                <p>IDEA guy, willing take any improvement to enhance any awesome product.</p>
                 <ul class="unstyled inline team">
                 	<li><a href="#"><i class="icon-facebook"></i></a></li>
                 	<li><a href="#"><i class="icon-twitter"></i></a></li>
@@ -257,20 +295,8 @@
         <li class="span3">
             <div class="thumbnail-style">
                 <img src="assets/img/others/3.jpg" alt="" />
-                <h3><a>Porta Gravida</a> <small>VP of Operations</small></h3>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem...</p>
-                <ul class="unstyled inline team">
-                	<li><a href="#"><i class="icon-facebook"></i></a></li>
-                	<li><a href="#"><i class="icon-twitter"></i></a></li>
-                	<li><a href="#"><i class="icon-google-plus"></i></a></li>
-                </ul>
-            </div>
-        </li>
-        <li class="span3">
-            <div class="thumbnail-style">
-                <img src="assets/img/others/6.jpg" alt="" />
-                <h3><a>Donec Elit</a> <small>Director, R &amp; D Talent</small></h3>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem...</p>
+                <h3><a>You? Join Us!</a> <small>Awesome Product Maker</small></h3>
+                <p>Wanna join us? Don't hesitate to drop us an email and enjoy our discussion.</p>
                 <ul class="unstyled inline team">
                 	<li><a href="#"><i class="icon-facebook"></i></a></li>
                 	<li><a href="#"><i class="icon-twitter"></i></a></li>
