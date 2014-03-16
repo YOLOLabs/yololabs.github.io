@@ -2,19 +2,19 @@ var Contact = function () {
 
     return {
         
-        //Map
+        //Set Map location 
         initMap: function () {
 			var map;
 			$(document).ready(function(){
 			  map = new GMaps({
 				div: '#map',
-				lat: -13.004333,
-				lng: -38.494333
+				lat: 21.002662,
+				lng: 105.822389
 			  });
 			   var marker = map.addMarker({
-		            lat: -13.004333,
-					lng: -38.494333,
-		            title: 'Loop, Inc.'
+		            lat: 21.002662,
+					lng: 105.822389,
+		            title: 'YOLOLabs'
 		        });
 			});
         }
